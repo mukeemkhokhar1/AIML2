@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+</head>
+<body>
+    <!--html table start-->
+    <table border="1" width="60%" align="center">
+        <caption>Student Details</caption>
+        <tr>
+            <th>S.No</th>
+            <th>Name</th>
+            <th>Mob</th>
+            <th>Branch</th>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>Aryan</td>
+            <td>35658768778</td>
+            <td>CSE</td>
+        </tr>   
+        <tr>
+            <td>02</td>
+            <td>Akash</td>
+            <td>77875454234</td>
+            <td>CSE</td>
+        </tr> 
+
+    </table>
+    <!--table end-->
+    
+    <!--html table 1-->
+    <table border="1" width
+
+</body>
+</html>
