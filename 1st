@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML formatting elements and special symbol</title>
+</head>
+<body>
+   <p>
+    <b>Hello</b> this is file for applying varios types of tag of html.
+   </p>
+   <p>This is a normal text</p>
+   <p><b>This is big text para</b></p>
+   <p><small>This is a small text para</small></p>
+   <P>
+    H<sub>2</sub>O<br>
+    5<sup>2</sup>=25
+   </P>
+   <h2>
+    &#8377 <del>899 /-</del>199/-
+    
+
+   </h2>
+   
+    
+</body>
+</html>
