@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML List</title>
+</head>
+<body>
+    <!--unorderd list-->
+    <h2>Unorderd List</h2>
+    <h3>List Type:nonr, disc, circle, square</h3>
+    <ul type="square">
+        <li>item 01</li>
+        <li>item 02</li>
+        <li>item 03</li>
+    </ul>
+    <h2>Ordered List - type : <mark>1,A,a,i,I</mark></h2>
+    <ol type="i">
+        <li>item 04</li>
+        <li>item 05</li>
+        <li>item 06</li>
+    </ol>
+    <h2>descripttion List</h2>
+    <di>
+        <dt>HTML</dt>
+        <dd>Hyper text markup language</dd>
+        <dt>CSS</dt>
+        <dd>cascading style sheet</dd>
+    </di>
+    <h2>Nested Lists</h2>
+    <ul type="none">
+        <li>Student Name
+            <ol>
+                <li>Aryan</li>
+                <li>Akash</li>
+                <li>Aman</li>
+            </ol>
+        </li>
+        <li>Student Branch
+            <ol>
+                <li>CSE</li>
+                <li>ECE</li>
+                <li>AI</li>
+            </ol>
+        </li>
+        <li>Student Contact
+            <ol>
+                <li>5654897897</li>
+                <li>3215484895</li>
+                <li>2135465885</li>
+            </ol>
+        </li>
+    </ul>
+
+    
+</body>
+</html>
