@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>E-Commerce Product Page</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;     
+            background-color: #f4f4f4;          
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;                           
+            margin: 20px auto;                   
+        }
+
+        .product-card {
+            width: 600px;                        
+            height: auto;                        
+            background-color: #ffffff;           
+            border: 2px solid #ccc;               
+            padding: 20px;                        
+            margin: 30px auto;                   
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px gray;
+        }
+
+        .product-card img {
+            width: 250px;                       
+            height: 250px;                       
+            border: 2px solid #999;              
+            padding: 10px;                       
+            margin-right: 20px;                  
+            border-radius: 10px;
+        }
+
+        .product-details {
+            display: inline-block;
+            vertical-align: top;
+            width: 290px;                         
+        }
+
+        .product-details h2 {
+            font-size: 28px;                      
+            color: #333333;                   
+            margin-bottom: 10px;                 
+        }
+
+        .price {
+            color: rgb(16, 30, 136);
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .desc {
+            font-size: 16px;
+            margin-bottom: 20px;
+            color: #ba912a;
+            line-height: 1.5;
+        }
+
+        .btn {
+            background-color: #ff6600;
+            color: white;
+            padding: 12px 20px;                  
+            border: none;
+            font-size: 18px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #e65c00;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1 style="text-align:center; margin-top:20px;">E-Commerce Product Page</h1>
+
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250" alt="Product">
+
+            <div class="product-details">
+                <h2>Wireless Bluetooth Headphones</h2>
+
+                <p class="price">₹1,499</p>
+
+                <p class="desc">
+                    High-quality wireless headphones with noise cancellation, 
+                    deep bass, and long battery backup. Best for music lovers
+                    and gamers.
+                </p>
+
+                <button class="btn">Add to Cart</button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
