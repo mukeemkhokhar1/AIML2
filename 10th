@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 15px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+}
+
+/* Banner */
+.banner {
+    background-color: #ddd;
+    text-align: center;
+    padding: 40px;
+}
+
+/* Products */
+.product-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+.product-card button {
+    background-color: #222;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+/* Login */
+.login-form {
+    background: #fff;
+    padding: 20px;
+    max-width: 300px;
+    margin: auto;
+    border: 1px solid #ccc;
+}
+
+/* Cart */
+.cart-section {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
