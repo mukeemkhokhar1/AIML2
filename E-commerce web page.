@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flipkart UI Clone</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Top Section -->
+<div class="top-bg">
+    <div class="top-icons">
+        <div class="app">Flipkart</div>
+        <div class="app">5 Minutes</div>
+        <div class="app">Travel</div>
+        <div class="app">Grocery</div>
+    </div>
+
+    <div class="search-box">
+        <input type="text" placeholder="laptops">
+        <span class="camera">📷</span>
+    </div>
+
+    <div class="categories">
+        <div>For You</div>
+        <div>Fashion</div>
+        <div>Mobiles</div>
+        <div>Beauty</div>
+        <div>Electronics</div>
+    </div>
+</div>
+
+<!-- Suggested Section -->
+<div class="section-title">
+    Suggested For You <span>→</span>
+</div>
+
+<!-- Products Grid -->
+<div class="products">
+
+    <div class="card">
+        <img src="https://via.placeholder.com/200x260">
+        <h4>JAARA Men Relaxed</h4>
+        <p class="cut">₹2,999 <span>₹404</span></p>
+        <p class="buy">Buy at ₹374</p>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/200x260">
+        <h4>GARTEEN Men Jeans</h4>
+        <p class="cut">₹2,849 <span>₹379</span></p>
+        <p class="buy">Buy at ₹349</p>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/200x260">
+        <h4>LOOKONCE Men</h4>
+        <p class="cut">₹2,499 <span>₹384</span></p>
+        <p class="buy">Buy at ₹354</p>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/200x260">
+        <h4>HSwear Men Loose</h4>
+        <p class="cut">₹1,500 <span>₹538</span></p>
+        <p class="buy">Buy at ₹508</p>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/200x260">
+        <h4>ZAYSH Men Loose</h4>
+        <p class="cut">₹1,249 <span>₹460</span></p>
+        <p class="buy">Buy at ₹430</p>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/200x260">
+        <h4>CABRRR Men Loose</h4>
+        <p class="cut">₹999 <span>₹388</span></p>
+        <p class="buy">Buy at ₹358</p>
+    </div>
+
+</div>
+
+<!-- Bottom Navigation -->
+<div class="bottom-nav">
+    <div>🏠 Home</div>
+    <div>▶ Play</div>
+    <div>☰ Categories</div>
+    <div>👤 Account</div>
+    <div>🛒 Cart</div>
+</div>
+
+</body>
+</html>
